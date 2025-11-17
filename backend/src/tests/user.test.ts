@@ -10,7 +10,7 @@ beforeAll(async () => {
 });
 
 afterAll(async () => {
-  await prisma.user.deleteMany();
+  // await prisma.user.deleteMany();
   await app.close();
 });
 
