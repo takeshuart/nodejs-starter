@@ -1,0 +1,26 @@
+{
+  // Visit https://aka.ms/tsconfig to read more about this file
+  "exclude": [
+    "dist",
+    "node_modules",
+    "src/tests",
+    "vitest.config.ts"
+  ],
+  "compilerOptions": {
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "target": "es2020",
+    "types": [],
+    "rootDir": "./src",
+    "outDir": "./dist", //.js files will be emitted into this directory. If not specified, .js files will be emitted in the same directory as the .ts files.
+    "sourceMap": true,
+    "exactOptionalPropertyTypes": true,
+    "strict": true,
+    "jsx": "react-jsx",
+    "verbatimModuleSyntax": false,
+    "isolatedModules": true,
+    "moduleDetection": "force",
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+  }
+}
